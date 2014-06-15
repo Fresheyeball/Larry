@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -39,63 +39,64 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>H:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>H:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ActiveObjects.cs" />
-     <Compile Include="Assets\Scripts\AnotherClass.cs" />
-     <Compile Include="Assets\Scripts\AnotherScript.cs" />
-     <Compile Include="Assets\Scripts\Arrays.cs" />
-     <Compile Include="Assets\Scripts\AwakeAndStart.cs" />
-     <Compile Include="Assets\Scripts\AxisExample.cs" />
-     <Compile Include="Assets\Scripts\AxisRawExample.cs" />
-     <Compile Include="Assets\Scripts\BasicSyntax.cs" />
-     <Compile Include="Assets\Scripts\BustDownDoor.cs" />
-     <Compile Include="Assets\Scripts\ButtonInput.cs" />
-     <Compile Include="Assets\Scripts\CameraLookAt.cs" />
-     <Compile Include="Assets\Scripts\CheckState.cs" />
-     <Compile Include="Assets\Scripts\ClickColourChange.cs" />
-     <Compile Include="Assets\Scripts\DatatypeScript.cs" />
-     <Compile Include="Assets\Scripts\DestroyBasic.cs" />
-     <Compile Include="Assets\Scripts\DestroyComponent.cs" />
-     <Compile Include="Assets\Scripts\DestroyOther.cs" />
-     <Compile Include="Assets\Scripts\DoWhileLoop.cs" />
-     <Compile Include="Assets\Scripts\DualAxisExample.cs" />
-     <Compile Include="Assets\Scripts\EnableComponents.cs" />
-     <Compile Include="Assets\Scripts\ExplodingBullets.cs" />
-     <Compile Include="Assets\Scripts\FinishedLightLerp.cs" />
-     <Compile Include="Assets\Scripts\ForLoop.cs" />
-     <Compile Include="Assets\Scripts\ForeachLoop.cs" />
-     <Compile Include="Assets\Scripts\Hover.cs" />
-     <Compile Include="Assets\Scripts\IfStatements.cs" />
-     <Compile Include="Assets\Scripts\Inventory.cs" />
-     <Compile Include="Assets\Scripts\InvokeRepeating.cs" />
-     <Compile Include="Assets\Scripts\InvokeScript.cs" />
-     <Compile Include="Assets\Scripts\KeyInput.cs" />
+     <Compile Include="Assets\Scripts\Batman\ActiveObjects.cs" />
+     <Compile Include="Assets\Scripts\Batman\AnotherClass.cs" />
+     <Compile Include="Assets\Scripts\Batman\AnotherScript.cs" />
+     <Compile Include="Assets\Scripts\Batman\Arrays.cs" />
+     <Compile Include="Assets\Scripts\Batman\AwakeAndStart.cs" />
+     <Compile Include="Assets\Scripts\Batman\AxisExample.cs" />
+     <Compile Include="Assets\Scripts\Batman\AxisRawExample.cs" />
+     <Compile Include="Assets\Scripts\Batman\BasicSyntax.cs" />
+     <Compile Include="Assets\Scripts\Batman\BustDownDoor.cs" />
+     <Compile Include="Assets\Scripts\Batman\ButtonInput.cs" />
+     <Compile Include="Assets\Scripts\Batman\CameraLookAt.cs" />
+     <Compile Include="Assets\Scripts\Batman\CheckState.cs" />
+     <Compile Include="Assets\Scripts\Batman\ClickColourChange.cs" />
+     <Compile Include="Assets\Scripts\Batman\DatatypeScript.cs" />
+     <Compile Include="Assets\Scripts\Batman\DestroyBasic.cs" />
+     <Compile Include="Assets\Scripts\Batman\DestroyComponent.cs" />
+     <Compile Include="Assets\Scripts\Batman\DestroyOther.cs" />
+     <Compile Include="Assets\Scripts\Batman\DoWhileLoop.cs" />
+     <Compile Include="Assets\Scripts\Batman\DualAxisExample.cs" />
+     <Compile Include="Assets\Scripts\Batman\EnableComponents.cs" />
+     <Compile Include="Assets\Scripts\Batman\ExplodingBullets.cs" />
+     <Compile Include="Assets\Scripts\Batman\FinishedLightLerp.cs" />
+     <Compile Include="Assets\Scripts\Batman\ForLoop.cs" />
+     <Compile Include="Assets\Scripts\Batman\ForeachLoop.cs" />
+     <Compile Include="Assets\Scripts\Batman\Hover.cs" />
+     <Compile Include="Assets\Scripts\Batman\IfStatements.cs" />
+     <Compile Include="Assets\Scripts\Batman\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Batman\InvokeRepeating.cs" />
+     <Compile Include="Assets\Scripts\Batman\InvokeScript.cs" />
+     <Compile Include="Assets\Scripts\Batman\KeyInput.cs" />
+     <Compile Include="Assets\Scripts\Batman\MoveWithCamera.cs" />
+     <Compile Include="Assets\Scripts\Batman\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\Batman\Pop.cs" />
+     <Compile Include="Assets\Scripts\Batman\RocketDestruction.cs" />
+     <Compile Include="Assets\Scripts\Batman\ScopeAndAccessModifiers.cs" />
+     <Compile Include="Assets\Scripts\Batman\Shooting.cs" />
+     <Compile Include="Assets\Scripts\Batman\SingleCharacterScript.cs" />
+     <Compile Include="Assets\Scripts\Batman\SlowMovingPlatformY.cs" />
+     <Compile Include="Assets\Scripts\Batman\Spin.cs" />
+     <Compile Include="Assets\Scripts\Batman\TimeoutDestroy.cs" />
+     <Compile Include="Assets\Scripts\Batman\TransformFunctions.cs" />
+     <Compile Include="Assets\Scripts\Batman\TriggerDoorOpen.cs" />
+     <Compile Include="Assets\Scripts\Batman\UpdateAndFixedUpdate.cs" />
+     <Compile Include="Assets\Scripts\Batman\UsingDeltaTime.cs" />
+     <Compile Include="Assets\Scripts\Batman\UsingInstantiate.cs" />
+     <Compile Include="Assets\Scripts\Batman\UsingOtherComponents.cs" />
+     <Compile Include="Assets\Scripts\Batman\VariablesAndFunctions.cs" />
+     <Compile Include="Assets\Scripts\Batman\WhileLoop.cs" />
+     <Compile Include="Assets\Scripts\Batman\YetAnotherScript.cs" />
      <Compile Include="Assets\Scripts\MoveCamera.cs" />
-     <Compile Include="Assets\Scripts\MoveWithCamera.cs" />
-     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
-     <Compile Include="Assets\Scripts\Pop.cs" />
-     <Compile Include="Assets\Scripts\RocketDestruction.cs" />
-     <Compile Include="Assets\Scripts\ScopeAndAccessModifiers.cs" />
-     <Compile Include="Assets\Scripts\Shooting.cs" />
-     <Compile Include="Assets\Scripts\SingleCharacterScript.cs" />
-     <Compile Include="Assets\Scripts\SlowMovingPlatformY.cs" />
-     <Compile Include="Assets\Scripts\Spin.cs" />
-     <Compile Include="Assets\Scripts\TimeoutDestroy.cs" />
-     <Compile Include="Assets\Scripts\TransformFunctions.cs" />
-     <Compile Include="Assets\Scripts\TriggerDoorOpen.cs" />
-     <Compile Include="Assets\Scripts\UpdateAndFixedUpdate.cs" />
-     <Compile Include="Assets\Scripts\UsingDeltaTime.cs" />
-     <Compile Include="Assets\Scripts\UsingInstantiate.cs" />
-     <Compile Include="Assets\Scripts\UsingOtherComponents.cs" />
-     <Compile Include="Assets\Scripts\VariablesAndFunctions.cs" />
-     <Compile Include="Assets\Scripts\WhileLoop.cs" />
-     <Compile Include="Assets\Scripts\YetAnotherScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
